@@ -22,16 +22,12 @@ require_once "./common/head.php";
   <?php require_once "./common/get-in-touch.php" ?>
 
   <?php require_once "./common/we-are.php" ?>
-
-  <?php require_once "./common/footer.php" ?>
-
+  
   <?php require_once "./common/contact-form.php" ?>
-
+  
   <?php require_once "./common/join-us-form.php" ?>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="/js/smooth-scroll.min.js"></script>
-  <script src="/js/app.js"></script>
-
+  
+  <?php require_once "./common/footer.php" ?>
+  
 </body>
 </html>
