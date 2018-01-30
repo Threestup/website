@@ -1,19 +1,24 @@
-sass_path=./src/sass
-css_path=./src/css
-css_out=.${css_path}/*.css
+SASS_PATH=./src/sass
+CSS_PATH=./src/css
+VENDOR=./vendor
+CSS_OUT=${CSS_PATH}/*.css
 
 all: help
 
-start: compile-sass ## start local dev server
+start: deps compile-sass ## start local dev server
 	cd ./src && php -S 0.0.0.0:3000
+
+deps: ## install php dependencies
+	php composer.phar install
 
 compile-sass: ## generate minified css files
 	./vendor/bin/pscss \
 	-f compressed \
-	-i ${sass_path} < ${sass_path}/app.scss > ${css_path}/app.min.css
+	-i ${SASS_PATH} < ${SASS_PATH}/app.scss > ${CSS_PATH}/app.min.css
 
 clean: ## remove generated files
-	rm -rf ${css_out}
+	rm -rf ${CSS_OUT}
+	rm -rf ${VENDOR}
 
 .PHONY: help
 
