@@ -3,7 +3,7 @@
   color: $color-red;
   background: $color-white;
   display: inline-block;
-  padding: $base-unit $double-unit;
+  padding: ($base-unit + $quarter-unit) $double-unit;
   margin: 0;
   box-sizing: border-box;
   border: 0;
@@ -12,7 +12,10 @@
   font-family: $font-family-monospaced;
   font-size: 18px;
   text-align: center;
-  transition: all 0.2s;
+  transition: all 0.25s;
+  border-radius: 40px;
+  box-shadow: 0 0 20px transparentize($color: $color-black, $amount: 0.9);
+
   &:hover {
       color: $color-white;
       background-color: $color-red;

@@ -4,7 +4,7 @@
     <form action="http://0.0.0.0:1789/aporosa/contact" method="POST">
       <div class="form-element">
         <label for="name">Your Name</label>
-        <input type="text" name="name" placeholder="What do we call you?">
+        <input autofocus="on" type="text" name="name" placeholder="What do we call you?">
       </div>
       <div class="form-element">
         <label for="email">Email</label>

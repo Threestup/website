@@ -21,8 +21,10 @@ section.services {
 
     .boxes {
         .box {
+            box-shadow: 0 0 20px transparentize($color: $color-black, $amount: 0.9);
+            border-radius: 40px;
             margin: 0;
-            padding: $double-unit + $half-unit;
+            padding: $double-unit + $quarter-unit;
             height: 100%;
             background: $color-purple;
             color: $color-white;

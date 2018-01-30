@@ -91,5 +91,9 @@ form {
         box-shadow: 0 0 8px transparentize($color: $color-blue, $amount: 0.6);
       }
     }
+
+    textarea {
+      min-height: 150px;
+    }
   }
 }
