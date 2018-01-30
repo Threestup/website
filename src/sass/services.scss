@@ -41,9 +41,9 @@ section.services {
 
             strong.title {
                 font-size: $double-unit;
+                font-family: $font-family-monospaced;
                 text-transform: uppercase;
                 line-height: 1.1;
-                min-height: 115px;
                 display: block;
             }
 
