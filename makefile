@@ -8,10 +8,17 @@ all: help
 start: deps compile-sass ## start local dev server
 	cd ./src && php -S 0.0.0.0:3000
 
+serve: deps compile-sass-compressed ## production ready
+	cp ${CSS_PATH}/app.min.css ${CSS_PATH}/app.css 
+
 deps: ## install php dependencies
 	php composer.phar install
 
 compile-sass: ## generate minified css files
+	./vendor/bin/pscss \
+	-i ${SASS_PATH} < ${SASS_PATH}/app.scss > ${CSS_PATH}/app.css
+
+compile-sass-compressed: ## generate minified css files
 	./vendor/bin/pscss \
 	-f compressed \
 	-i ${SASS_PATH} < ${SASS_PATH}/app.scss > ${CSS_PATH}/app.min.css
