@@ -1,4 +1,4 @@
-<section class="padded how-we-work">
+<section class="padded how-we-work" id="how-we-work">
     <div class="container">
         <h2>How we work</h2>
         <div class="row items-list">

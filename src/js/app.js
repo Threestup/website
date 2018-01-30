@@ -32,6 +32,9 @@
       var $this = $(this);
       $this.parent().siblings().removeClass('active').end().addClass('active');
     });
+
+    $("#menu-drawer").scrollspy({ offset: -100 });
+
   }
   
   function toggleHeaderSolidClass(amount) {
