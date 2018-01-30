@@ -29,7 +29,7 @@ make start
 ### Production
 
 ```sh
-make compile-css
+make compile-sass
 ```
 
 _That's it, have fun!_
