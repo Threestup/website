@@ -93,13 +93,15 @@ header {
                 }
             }
             
-            &.active {
-                font-weight: bold;
+            &:not(.nav-button) {
+                &.active {
+                    font-weight: bold;
 
-                &:before {
-                    width: $active-indicator-size;
-                    height: $active-indicator-size;
-                    opacity: 1;
+                    &:before {
+                        width: $active-indicator-size;
+                        height: $active-indicator-size;
+                        opacity: 1;
+                    }
                 }
             }
         }

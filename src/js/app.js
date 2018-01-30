@@ -15,12 +15,6 @@
     modal = $("#modal-backdrop");
     showContactForm = $(".show-contact-form");
 
-    new SmoothScroll("a[href*=\"#\"]", {
-      speed: 500,
-      offset: 80,
-      easing: "easeInOutCubic"
-    });
-
     init();
   });
   
@@ -42,7 +36,13 @@
       modal.addClass("active");
     });
 
-    menuDrawer.scrollspy({ offset: -100 });
+    new SmoothScroll("a[href*=\"#\"]", {
+      speed: 500,
+      offset: 80,
+      easing: "easeInOutCubic"
+    });
+    // TODO: Replace scrollspy or smoothscroll as they conflict
+    // menuDrawer.scrollspy({ offset: -100 });
   }
   
   function toggleHeaderSolidClass(amount) {
