@@ -4,15 +4,34 @@
     <div class="row items-list">
       <div class="col-lg-4 items-list-item">
         <strong class="title">Cost transparency</strong>
-        <p>Our hourly rate is fixed and the total cost will only be based on what we estimated and agreed together.  If it takes more time than expected, it's on us!  Basically you get what you paid for, there is no hidden costs.</p>
+        <p>
+          <strong>Our hourly rate is fixed and the total cost will
+          be based on what we estimated and agreed on together
+          in the planning stage.</strong>
+        </p>
+        <p>
+          If your requirements change, we will provide an up-to-date
+          estimation so you are always kept in the loop!
+        </p>
       </div>
       <div class="col-lg-4 items-list-item">
         <strong class="title">Open workflow</strong>
-        <p>We work using agile methodologies and you are fully part of this process.  We are agile and you are fully part of this process. We plan the tasks to be done, you get an update about the progress everyday and can give us feedback.</p>
+        <p>
+          <strong>We use agile methodologies and we make sure you are part of the entire process.</strong>
+        </p>
+        <p>
+          From backlog grooming to sprint planning, you are always up-to-date and
+          your input and feedback are incorporated into our workflow.
+        </p>
       </div>
       <div class="col-lg-4 items-list-item">
         <strong class="title">Focus on quality</strong>
-        <p>Quality, minimalism, maintainability, and cleanliness are at the forefront of what we do as a team. We believe it is essential to be professional and disciplined when developing software, no matter the scale or scope of the project.</p>
+        <p>
+          <strong>Quality, minimalism, maintainability, and cleanliness are at the forefront of what we do as a team.</strong>
+        </p>
+        <p>
+          We believe it is essential to be professional and disciplined when developing software, regardless of the scale or the scope of the project.
+        </p>
       </div>
     </div>
     </div>
