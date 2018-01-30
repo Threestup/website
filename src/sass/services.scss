@@ -20,6 +20,17 @@ section.services {
     margin-top: -12vh;
 
     .boxes {
+        @include media-breakpoint-down(md) {
+            div:first-child .box {
+                border-radius: 40px 40px 0px 0px;
+            }
+            div:not(:first-child):not(:last-child) .box {
+                border-radius: 0px;
+            }
+            div:last-child .box {
+                border-radius: 0px 0px 40px 40px;
+            }
+        }
         .box {
             box-shadow: 0 0 20px transparentize($color: $color-black, $amount: 0.9);
             border-radius: 40px;

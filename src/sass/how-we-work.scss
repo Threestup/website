@@ -1,2 +1,7 @@
 section.how-we-work {
+    @include media-breakpoint-down(md) {
+        .row [class*="col-"]+[class*="col-"] {
+            margin-top: 80px;
+        }
+    }
 }
