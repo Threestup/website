@@ -5,15 +5,20 @@
   let header = null;
   let expandMenuDrawer = null;
   let menuDrawer = null;
+  let modal = null;
+  let showContactForm = null;
   
   doc.ready((_event) => {
     header = $("#white-bg-on-scroll");
     expandMenuDrawer = $("#expand-menu-drawer");
     menuDrawer = $("#menu-drawer");
-    new SmoothScroll('a[href*="#"]', {
+    modal = $("#modal-backdrop");
+    showContactForm = $(".show-contact-form");
+
+    new SmoothScroll("a[href*=\"#\"]", {
       speed: 500,
       offset: 80,
-      easing: 'easeInOutCubic'
+      easing: "easeInOutCubic"
     });
 
     init();
@@ -28,13 +33,16 @@
       menuDrawer.toggleClass("active");
     });
   
-    $('#menu-drawer > li a').click(function(e) {
-      var $this = $(this);
-      $this.parent().siblings().removeClass('active').end().addClass('active');
+    $("#menu-drawer > li a").click((_e) => {
+      const $this = $(this);
+      $this.parent().siblings().removeClass("active").end().addClass("active");
     });
 
-    $("#menu-drawer").scrollspy({ offset: -100 });
+    showContactForm.click((_e) => {
+      modal.addClass("active");
+    });
 
+    menuDrawer.scrollspy({ offset: -100 });
   }
   
   function toggleHeaderSolidClass(amount) {
@@ -48,7 +56,7 @@
   }
   
   function onScroll() {
-    const amount = $(window).scrollTop();
+    const amount = win.scrollTop();
     toggleHeaderSolidClass(amount);
   }
   

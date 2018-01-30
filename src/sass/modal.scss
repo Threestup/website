@@ -9,6 +9,10 @@
   overflow: auto;
   display: none;
 
+  &.active {
+    display: block;
+  }
+
   .modal {
     padding-top: 80px;
     padding-bottom: 50px;

@@ -18,11 +18,20 @@ h1, h2, h3, h4, h5, h6, .title {
   line-height: 1;
 }
 
-a.funky {
-  color: #e74c3c;
-  animation-name: colorgasmAnimate;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+a, .link {
+  text-decoration: underline;
+  cursor: pointer;
+
+  &.funky {
+    color: #e74c3c;
+    animation-name: colorgasmAnimate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 section {

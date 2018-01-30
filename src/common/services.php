@@ -13,7 +13,7 @@
             All we need is a prioritised backlog. If you don't have one yet, don't worry,
             we will help you!
           </p>
-          <a href="#">Get Started</a>
+          <span class="link show-contact-form">Get Started</span>
         </div>
       </div>
       <div class="col-lg-4">
@@ -29,7 +29,7 @@
             If your answer to any of these questions is YES, don't hesitate and reach out!
             We can join your team and help boost your productivity.
           </p>
-          <a href="#">Get Started</a>
+          <span class="link show-contact-form">Get Started</span>
         </div>
       </div>
       <div class="col-lg-4">
@@ -45,7 +45,7 @@
             Whether you need a V2 (rewrite), or an update of your codebase so that it can support new features,
             we can help you. At the same time, we introduce good practices and use recognised workflows.
           </p>
-          <a href="#">Get Started</a>
+          <span class="link show-contact-form">Get Started</span>
         </div>
       </div>
     </div>
