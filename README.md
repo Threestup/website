@@ -5,7 +5,7 @@
 With [git](https://git-scm.com/downloads) installed
 
 ```sh
-git clone git@github.com:anas10/threestupstuffs.git
+git clone git@github.com:Threestup/website.git
 ```
 
 ### Install PHP
