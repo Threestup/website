@@ -3,9 +3,9 @@
     <div class="social">
       <a class="funky" href="https://twitter.com/threestup">Twitter</a>
       &bull;
-      <a class="funky" href="https://linkedin.com/company/threestup/">Linkedin</a>
+      <a class="funky" href="https://linkedin.com/company/threestup">Linkedin</a>
       &bull;
-      <a class="funky" href="https://threestup.com/threestup/">Github</a>
+      <a class="funky" href="https://github.com/threestup">Github</a>
     </div>
 
     <small>2018<?php if (date('Y') != 2018) echo '-' . date('Y');?> Threestup LTD. All rights reserved.</small>
