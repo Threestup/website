@@ -22,12 +22,12 @@ require_once "./common/head.php";
   <?php require_once "./common/get-in-touch.php" ?>
 
   <?php require_once "./common/we-are.php" ?>
-  
+
   <?php require_once "./common/contact-form.php" ?>
-  
-  <?php require_once "./common/join-us-form.php" ?>
-  
+
+  <?php /* require_once "./common/join-us-form.php" */ ?>
+
   <?php require_once "./common/footer.php" ?>
-  
+
 </body>
 </html>

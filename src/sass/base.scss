@@ -42,3 +42,30 @@ section {
     }
   }
 }
+
+form {
+  .form-element {
+    margin: 0 0 $double-unit;
+
+    label {
+      display: block;
+      padding: 0 0 $half-unit;
+      font-size: 90%;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      box-sizing: border-box;
+      padding: $half-unit * 2;
+      border-radius: 5px;
+      border: 2px solid $color-grey-lighter;
+      font-family: $font-family-monospaced;
+      outline: none;
+
+      &:focus {
+        border-color: $color-blue;
+        box-shadow: 0 0 8px transparentize($color: $color-blue, $amount: 0.6);
+      }
+    }
+  }
+}
