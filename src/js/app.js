@@ -33,11 +33,11 @@
     });
 
     showContactForm.click((_e) => {
-      modal.addClass("active");
+      modal.addClass("active").animate({opacity: 1});
     });
 
     $("#modal-backdrop .close-btn").click((_e) => {
-      modal.removeClass("active");
+      modal.animate({opacity: 0}, function() { $(this).removeClass("active") });
     });
 
     new SmoothScroll("a[href*=\"#\"]", {
