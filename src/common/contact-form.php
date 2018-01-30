@@ -1,4 +1,5 @@
 <div id="modal-backdrop">
+  <span class="close-btn">X</span>
   <div class="modal container">
     <strong class="title">Let's work together!</strong>
     <form action="http://0.0.0.0:1789/aporosa/contact" method="POST">

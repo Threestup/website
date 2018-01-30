@@ -36,6 +36,10 @@
       modal.addClass("active");
     });
 
+    $("#modal-backdrop .close-btn").click((_e) => {
+      modal.removeClass("active");
+    });
+
     new SmoothScroll("a[href*=\"#\"]", {
       speed: 500,
       offset: 80,
