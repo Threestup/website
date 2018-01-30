@@ -7,6 +7,21 @@ footer {
     }
 
     .social {
+        @keyframes colorgasmAnimate {
+            0%   {color: #e74c3c;}
+            25%  {color: #f1c40f;}
+            50%  {color: #3498db;}
+            75%  {color: #2ecc71;}
+            100% {color: #e74c3c;}
+        }
+
+        a {
+            color: #e74c3c;
+            animation-name: colorgasmAnimate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
         font-size: 14px;
         text-align: center;
     }
