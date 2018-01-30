@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="row items-list mb-5">
-            <div class="col-lg-5 offset-md-7 items-list-item">
+            <div class="col-lg-5 offset-lg-7 items-list-item">
                 <strong class="title">2. Time to estimate</strong>
                 <p>
                     Within two business days our team will work on your project’s requirements and provide an estimate of hours to complete it.
