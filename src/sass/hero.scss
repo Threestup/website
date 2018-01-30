@@ -1,5 +1,5 @@
 section.hero {
-    height: 70vh;
+    height: 90vh;
     min-height: 500px;
     background: url("../img/bg-hero.jpg") center center fixed no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@ section.hero {
         }
     }
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(md) {
         height: auto;
         min-height: initial;
 

@@ -33,9 +33,9 @@
       menuDrawer.toggleClass("active");
     });
   
-    $("#menu-drawer > li a").click((_e) => {
-      const $this = $(this);
-      $this.parent().siblings().removeClass("active").end().addClass("active");
+    $('#menu-drawer > li a:not(.nav-button)').click(function(e) {
+      var $this = $(this);
+      $this.parent().siblings().removeClass('active').end().addClass('active');
     });
 
     showContactForm.click((_e) => {

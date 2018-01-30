@@ -10,7 +10,7 @@
         <li><a href="#approach">Our Approach</a></li>
         <li><a href="#how-we-work">How we work</a></li>
         <li><a href="#about-us">About Us</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="nav-button"><a href="#contact">Hire us</a></li>
     </ul>
 
     <div id="expand-menu-drawer">

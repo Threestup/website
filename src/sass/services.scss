@@ -67,7 +67,7 @@ section.services {
         }
     }
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(md) {
         margin-top: -50px;
     }
 }
