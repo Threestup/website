@@ -179,6 +179,16 @@ header {
                 display: block;
                 float: none;
 
+                &.nav-button {
+                    a {
+                        background: none;
+                        color: $color-red;
+                        height: $nav-height * 0.75;
+                        line-height: $nav-height * 0.75;
+                        margin-top: inherit;
+                    }
+                }
+
                 a {
                     height: $nav-height * 0.75;
                     line-height: $nav-height * 0.75;

@@ -8,7 +8,7 @@
         <li><a href="#services">What We Do</a></li>
         <li><a href="#approach">Our Approach</a></li>
         <li><a href="#how-we-work">How we work</a></li>
-        <li class="nav-button"><a href="#contact">Hire us</a></li>
+        <li class="nav-button show-contact-form"><a href="#contact">Hire us</a></li>
     </ul>
 
     <div id="expand-menu-drawer">
