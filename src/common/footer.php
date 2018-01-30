@@ -7,7 +7,7 @@
     </div>
 
     <p class="text">
-      2018 Threestup LTD. All rights reserved
+      2018<?php if (date('Y') != 2018) echo '-' . date('Y');?> Threestup LTD. All rights reserved
     </p>
     </div>
 </footer>
@@ -15,3 +15,4 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/smooth-scroll.min.js"></script>
 <script src="js/app.js"></script>
+<script src="js/scrollspy.js"></script>
