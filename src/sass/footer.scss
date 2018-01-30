@@ -1,3 +1,20 @@
 footer {
-    
+    height:100px;
+    background-color: #f7f7f7;
+
+    .container {
+        padding-top: 25px;
+    }
+
+    .social {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .text {
+        color: #292b2c;
+        text-align: center;
+        font-size: 10px;
+
+    }
 }

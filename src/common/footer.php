@@ -1,10 +1,15 @@
 <footer>
-    <a href="https://twitter.com/threestup">
-        <i class="icofont icofont-social-twitter"></i>
-    </a>
-    <a href="https://linkedin.com/company/threestup/">
-        <i class="icofont icofont-brand-linkedin"></i>
-    </a>
+  <div class="container">
+    <div class="social">
+      <a href="https://twitter.com/threestup">Twitter</a> |
+      <a href="https://linkedin.com/company/threestup/">Linkedin</a> |
+      <a href="https://threestup.com/threestup/">Github</a>
+    </div>
+
+    <p class="text">
+      2018 Threestup LTD. All rights reserved
+    </p>
+    </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
