@@ -1,3 +1,11 @@
+@keyframes colorgasmAnimate {
+  0%   {color: #e74c3c;}
+  25%  {color: #f1c40f;}
+  50%  {color: #3498db;}
+  75%  {color: #2ecc71;}
+  100% {color: #e74c3c;}
+}
+
 body {
   font-family: $font-family-monospaced;
   color: $color-threestup-black;
@@ -8,6 +16,13 @@ h1, h2, h3, h4, h5, h6, .title {
   font-family: $font-family-serif;
   font-weight: bold;
   line-height: 1;
+}
+
+a.funky {
+  color: #e74c3c;
+  animation-name: colorgasmAnimate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 section {

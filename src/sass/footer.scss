@@ -1,35 +1,14 @@
 footer {
-    height:100px;
-    background-color: #f7f7f7;
+    padding: $triple-unit;
+    background-color: $color-grey-lighter;
+    text-align: center;
 
-    .container {
-        padding-top: 25px;
+    a {
+        font-weight: bold;
     }
 
-    .social {
-        @keyframes colorgasmAnimate {
-            0%   {color: #e74c3c;}
-            25%  {color: #f1c40f;}
-            50%  {color: #3498db;}
-            75%  {color: #2ecc71;}
-            100% {color: #e74c3c;}
-        }
-
-        a {
-            color: #e74c3c;
-            animation-name: colorgasmAnimate;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
-        }
-
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .text {
-        color: #292b2c;
-        text-align: center;
-        font-size: 10px;
-
+    small {
+        display: block;
+        padding-top: $base-unit;
     }
 }
