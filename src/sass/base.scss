@@ -1,0 +1,44 @@
+body {
+  font-family: $font-family-monospaced;
+  color: $color-threestup-black;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif;
+  font-weight: bold;
+  line-height: 1;
+}
+
+section {
+  display: block;
+
+  &.padded {
+    padding: ($double-unit * 2) 0;
+
+    h2 {
+      margin: 0 0 $triple-unit;
+      font-size: $triple-unit + $quarter-unit;
+      line-height: 1.1;
+      color: $color-red;
+    }
+  }
+}
+
+.items-list {
+  .items-list-item {
+    padding-bottom: $triple-unit;
+    .title {
+      display: block;
+      font-family: $font-family-monospaced;
+      font-size: $double-half-unit;
+      text-transform: uppercase;
+    }
+    p {
+      margin: $double-half-unit 0 0;
+    }
+    &:nth-last-child(-n+3) {
+      padding-bottom: 0;
+    }
+  }
+}

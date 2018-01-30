@@ -1,0 +1,15 @@
+section.get-in-touch {
+    text-align: center;
+    background: $color-red;
+    h2 {
+        color: $color-threestup-black;
+    }
+    .button {
+        color: $color-threestup-black;
+        background: $color-white;
+        &:hover {
+            color: $color-threestup-black;
+            background-color: $color-red;
+        }
+    }
+}

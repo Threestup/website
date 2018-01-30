@@ -1,0 +1,71 @@
+@keyframes boxcolors {
+    0% {
+        background: $color-green;
+    }
+    25% {
+        background: $color-blue;
+    }
+    50% {
+        background: $color-threestup-black;
+    }
+    75% {
+        background: $color-yellow;
+    }
+    100% {
+        background: $color-purple-dark;
+    }
+}
+
+section.services {
+    margin-top: -12vh;
+
+    .boxes {
+        .box {
+            margin: 0;
+            padding: $double-unit + $half-unit;
+            height: 100%;
+            background: $color-blue;
+            color: $color-white;
+
+            &#services-scale {
+                background: $color-yellow;
+            }
+
+            &#services-legacy {
+                background: $color-threestup-black;
+            }
+
+            .title, p, a {
+                color: inherit;
+            }
+
+            strong.title {
+                font-size: $double-unit;
+                text-transform: uppercase;
+                line-height: 1.1;
+                min-height: 115px;
+                display: block;
+            }
+
+            p {
+                margin: $double-half-unit 0;
+            }
+
+            &#services-scale {
+                animation-duration: 50s;
+                animation-direction: reverse;
+                animation-fill-mode: backwards;
+            }
+
+            &#services-legacy {
+                animation-duration: 30s;
+                animation-delay: 7s;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        margin-top: -50px;
+    }
+}

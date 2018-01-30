@@ -1,0 +1,29 @@
+section.hero {
+    height: 70vh;
+    min-height: 500px;
+    background: url("../img/bg-hero.jpg") center center fixed no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hero-content {
+        h1 {
+            margin: 0 0 $double-unit;
+            text-transform: uppercase;
+            font-family: $font-family-monospaced;
+            font-size: $quadruple-unit + $half-unit;
+            line-height: 1.1;
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        height: auto;
+        min-height: initial;
+
+        .hero-content {
+            padding-top: 120px;
+            padding-bottom: 100px;
+        }
+    }
+}
