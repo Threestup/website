@@ -1,4 +1,8 @@
 (function ($) {
+  const noop = () => {};
+  const err = Symbol(':err');
+  const ok = Symbol(':ok');
+
   const doc = $(document);
   const win = $(window);
 
@@ -8,6 +12,7 @@
   let modal = null;
   let showContactForm = null;
   let hideContactForm = null;
+  let contactForm = null;
 
   doc.ready((_event) => {
     header = $("#white-bg-on-scroll");
@@ -16,6 +21,7 @@
     modal = $("#modal-backdrop");
     showContactForm = $(".show-contact-form");
     hideContactForm = $("#modal-backdrop .close-btn");
+    contactForm = $("#contact-form");
 
     init();
   });
@@ -38,11 +44,13 @@
       modal.addClass("active").animate({ opacity: 1 });
     });
 
-    $("#modal-backdrop .close-btn").click((_event) => {
+    hideContactForm.click((_event) => {
       modal.animate({ opacity: 0 }, () => {
         modal.removeClass("active");
       });
     });
+
+    initFormHandler();
 
     new SmoothScroll("a[href*=\"#\"]", {
       speed: 500,
@@ -67,5 +75,24 @@
   function onScroll() {
     const amount = win.scrollTop();
     toggleHeaderSolidClass(amount);
+  }
+
+  function initFormHandler() {
+    contactForm.submit(() => {
+      const payload = contactForm.serializeArray();
+
+      console.info("Submitting form ...");
+      console.table(payload);
+
+      $.post("http://0.0.0.0:8080/balek", noop)
+        .done((data) => {
+          console.log(ok, data);
+          // @TODO display success notification
+        })
+        .fail((error) => {
+          console.error(err, error);
+          // @TODO display error notification
+        });
+    });
   }
 })(jQuery);
