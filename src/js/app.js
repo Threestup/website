@@ -87,7 +87,7 @@
 
       console.info(`Submitting form ... ${payload}`);
 
-      $.post("https://threestup.com/aporosa/contact-us", payload)
+      $.post("https://threestup.com/aporosa/contact", payload)
         .done((data) => {
           console.log(ok, data);
           // @TODO display success notification
