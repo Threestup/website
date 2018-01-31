@@ -19,7 +19,7 @@
         <label for="message">Message</label>
         <textarea type="text" name="message" placeholder="How can we help? Do you want us to get back to you? (optional)"></textarea>
       </div>
-      <button class="button red" type="submit">Submit</button>
+      <button id="submit-contact-form" class="button red" type="submit">Submit</button>
     </form>
   </div>
 </div>

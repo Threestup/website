@@ -13,6 +13,7 @@
   let showContactForm = null;
   let hideContactForm = null;
   let contactForm = null;
+  let submitContactForm = null;
 
   doc.ready((_event) => {
     header = $("#white-bg-on-scroll");
@@ -22,6 +23,7 @@
     showContactForm = $(".show-contact-form");
     hideContactForm = $("#modal-backdrop .close-btn");
     contactForm = $("#contact-form");
+    submitContactForm = $("#submit-contact-form");
 
     init();
   });
@@ -78,13 +80,14 @@
   }
 
   function initFormHandler() {
-    contactForm.submit(() => {
-      const payload = contactForm.serializeArray();
+    submitContactForm.click((event) => {
+      event.preventDefault();
 
-      console.info("Submitting form ...");
-      console.table(payload);
+      const payload = contactForm.serialize();
 
-      $.post("http://0.0.0.0:8080/balek", noop)
+      console.info(`Submitting form ... ${payload}`);
+
+      $.post("http://0.0.0.0:8080/balek", payload)
         .done((data) => {
           console.log(ok, data);
           // @TODO display success notification
