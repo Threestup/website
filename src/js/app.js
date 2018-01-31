@@ -84,7 +84,7 @@
       console.info("Submitting form ...");
       console.table(payload);
 
-      $.post("http://0.0.0.0:8080/balek", noop)
+      $.post("https://threestup.com/aporosa/contact-us", noop)
         .done((data) => {
           console.log(ok, data);
           // @TODO display success notification
