@@ -1,5 +1,5 @@
 <div id="modal-backdrop">
-  <span class="close-btn">X</span>
+  <i class="close-btn">&times;</i>
   <div class="modal container">
     <strong class="title">Let's work together!</strong>
     <form id="contact-form">
