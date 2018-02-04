@@ -33,8 +33,37 @@ $close-btn-size: 50px;
     display: block;
   }
 
+  &.success {
+    .modal-success {
+      display: block;
+    }
+
+    .close-btn { 
+      color: $color-green;
+      border: 1px solid $color-green;
+    }
+
+    form, .title {
+      display: none !important;
+    }
+  }
+
+  .modal-success {
+    background: white;
+    z-index: 2;
+    position: absolute;
+    display: none;
+    margin: 90px $double-unit;
+    
+    .message {
+      color: $color-green;
+      font-size: $double-unit;
+      margin: $triple-unit;
+    }
+  }
+
   .modal {
-    padding-top: 80px;
+    padding-top: 90px;
     padding-bottom: 50px;
     max-width: 750px;
 

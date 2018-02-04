@@ -16,6 +16,7 @@
   let submitContactForm = null;
 
   doc.ready((_event) => {
+    body = $("body");
     header = $("#white-bg-on-scroll");
     expandMenuDrawer = $("#expand-menu-drawer");
     menuDrawer = $("#menu-drawer");
@@ -44,11 +45,14 @@
 
     showContactForm.click((_event) => {
       modal.addClass("active").animate({ opacity: 1 });
+      body.addClass("noscroll");
     });
 
     hideContactForm.click((_event) => {
       modal.animate({ opacity: 0 }, () => {
+        body.removeClass("noscroll");
         modal.removeClass("active");
+        modal.removeClass('success');
       });
     });
 
@@ -90,7 +94,8 @@
       $.post("https://threestup.com/aporosa/contact", payload)
         .done((data) => {
           console.log(ok, data);
-          // @TODO display success notification
+          submitContactForm.parent('#contact-form')[0].reset();
+          modal.addClass('success');
         })
         .fail((error) => {
           console.error(err, error);

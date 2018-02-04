@@ -1,5 +1,10 @@
 <div id="modal-backdrop">
   <i class="close-btn">&times;</i>
+  <div class="modal-success">
+    <strong class="message">Thanks for getting in touch. 
+    <br><br>
+    We'll get back to you in less than 2 business days.</strong>
+  </div>
   <div class="modal container">
     <strong class="title">Let's work together!</strong>
     <form id="contact-form">
