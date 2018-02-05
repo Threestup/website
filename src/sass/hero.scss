@@ -10,10 +10,10 @@ section.hero {
     .hero-content {
         h1 {
             margin: 0 0 $double-unit;
-            text-transform: uppercase;
             font-family: $font-family-monospaced;
-            font-size: $quadruple-unit + $half-unit;
-            line-height: 1.1;
+            font-size: $quadruple-unit - $quarter-unit;
+            line-height: 1.25;
+            text-shadow: 0 0 24px transparentize($color: $color-white, $amount: 0.25);
         }
     }
 

@@ -3,7 +3,7 @@
     <div class="boxes row justify-content-around">
       <div class="col-lg-4">
         <div class="box" id="services-mvp">
-          <strong class="title">Build</br> your MVP</strong>
+          <strong class="title">Build<br> your MVP</strong>
           <p>
             We come into play when there's a need to deliver a high-quality and future-proof MVP (Minimum Viable Product).
             We believe it's crucial to strike the right balance between quality and speed of delivery,
@@ -18,7 +18,7 @@
       </div>
       <div class="col-lg-4">
         <div class="box" id="services-scale">
-          <strong class="title">Scale up</br> your team</strong>
+          <strong class="title">Scale up<br> your team</strong>
           <p>
             A big release in few weeks?
             Fighting short deadlines with a customer?
@@ -34,8 +34,7 @@
       </div>
       <div class="col-lg-4">
         <div class="box" id="services-legacy">
-          <strong class="title">LEGACY
-            <br>CODE</strong>
+          <strong class="title">Legacy<br> code</strong>
           <p>
             We know that most IT projects start with the best intentions,
             but we also know that short deadlines and business constraints
