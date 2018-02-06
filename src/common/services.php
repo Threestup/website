@@ -20,7 +20,7 @@
         <div class="box" id="services-scale">
           <strong class="title">Scale up<br> your team</strong>
           <p>
-            A big release in few weeks?
+            An important release in a few weeks?
             Fighting short deadlines with a customer?
             Want to bring experienced engineers to help your team?
             Need help with your engineering processes?
