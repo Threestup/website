@@ -5,9 +5,9 @@
       <div class="col-lg-4 items-list-item">
         <strong class="title">Cost transparency</strong>
         <p>
-          <strong>Our hourly rate is fixed and the total cost will
+          Our hourly rate is fixed and the total cost will
           be based on what we estimated and agreed on together
-          in the planning stage.</strong>
+          in the planning stage.
         </p>
         <p>
           If your requirements change, we will provide an up-to-date
@@ -17,7 +17,7 @@
       <div class="col-lg-4 items-list-item">
         <strong class="title">Open workflow</strong>
         <p>
-          <strong>We use agile methodologies and we make sure you are part of the entire process.</strong>
+          We use agile methodologies and we make sure you are part of the entire process.
         </p>
         <p>
           From backlog grooming to sprint planning, you are always up-to-date and
@@ -27,7 +27,7 @@
       <div class="col-lg-4 items-list-item">
         <strong class="title">Focus on quality</strong>
         <p>
-          <strong>Quality, minimalism, maintainability, and cleanliness are at the forefront of what we do as a team.</strong>
+          Quality, minimalism, maintainability, and cleanliness are at the forefront of what we do as a team.
         </p>
         <p>
           We believe it is essential to be professional and disciplined when developing software, regardless of the scale or the scope of the project.

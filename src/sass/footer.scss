@@ -2,9 +2,11 @@ footer {
     padding: $triple-unit;
     background-color: $color-grey-lighter;
     text-align: center;
+    font-family: $font-family-monospaced;
 
     a {
         font-weight: bold;
+        color: $color-red;
     }
 
     small {

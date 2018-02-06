@@ -16,7 +16,7 @@
             <div class="col-lg-5 offset-lg-7 items-list-item">
                 <strong class="title">2. Time to estimate</strong>
                 <p>
-                    Within two business days our team will work on your project’s requirements and provide an estimate of hours to complete it.
+                    Within two business days our team will work on your project’s requirements and if possible provide an estimate of the completion date.
                 </p>
                 <p>
                     The best part? All our quotations are free of charge.
@@ -30,7 +30,7 @@
                     At this stage, we plan the work and go heads-down coding!
                 </p>
                 <p>
-                    We will communicate our progress as well as possible project changes on a daily basis.
+                    We will communicate our progress, as well as possible changes to the project on a daily basis.
                 </p>
             </div>
         </div>

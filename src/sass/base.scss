@@ -7,15 +7,19 @@
 }
 
 body {
-  font-family: $font-family-monospaced;
+  font-family: $font-family-serif;
   color: $color-threestup-black;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6, .title {
   font-family: $font-family-serif;
   font-weight: bold;
   line-height: 1;
+}
+
+p {
+  font-size: 17px;
 }
 
 a, .link {
@@ -43,7 +47,7 @@ section {
     h2 {
       margin: 0 0 $triple-unit;
       font-size: $triple-unit + $quarter-unit;
-      line-height: 1.1;
+      line-height: 1.2;
       color: $color-red;
     }
   }

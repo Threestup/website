@@ -37,8 +37,10 @@ section.services {
             margin: 0;
             padding: $double-unit + $quarter-unit;
             height: 100%;
-            background: $color-purple;
+            background: $color-blue-dark;
             color: $color-white;
+            font-family: $font-family-monospaced;
+            line-height: 1.5;
 
             &#services-scale {
                 background: $color-yellow;
