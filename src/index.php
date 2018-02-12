@@ -19,6 +19,8 @@ require_once "./common/head.php";
 
   <?php require_once "./common/how-we-work.php" ?>
 
+  <?php require_once "./common/pricing-table.php" ?>
+
   <?php require_once "./common/get-in-touch.php" ?>
 
   <?php require_once "./common/we-are.php" ?>
