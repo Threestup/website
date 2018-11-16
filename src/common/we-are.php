@@ -1,7 +1,7 @@
 <section class="padded we-are" id="about-us">
     <div class="container">
         <h2>About us</h2>
-        <p>We are Anas, Jeremy, and Slavo &ndash; a group of friends and colleagues who love what they do.</p>
+        <p>We are a purposefully-small team of colleagues and friends who love what they do.</p>
         <p>Before Threestup, we worked together on numerous projects, where we
         found our shared passion for technology,
         and for doing things the way we believe is right.
