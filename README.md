@@ -35,4 +35,10 @@ Build the production css file
 make compile-sass
 ```
 
+## Docker
+
+A `Dockerfile` and `docker-compose.yml` are available
+
+`docker-compose up`and fire away
+
 _That's it, have fun!_
