@@ -91,7 +91,7 @@
 
       console.info(`Submitting form ... ${payload}`);
 
-      $.post("/aporosa/contact", payload)
+      $.post("https://api.threestup.com/aporosa/contact", payload)
         .done((data) => {
           console.log(ok, data);
           submitContactForm.parent('#contact-form')[0].reset();
