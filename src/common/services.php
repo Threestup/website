@@ -6,12 +6,11 @@
           <strong class="title">Build<br> your MVP</strong>
           <p>
             We come into play when there's a need to deliver a high-quality and future-proof MVP (Minimum Viable Product).
-            We believe it's crucial to strike the right balance between quality and speed of delivery,
-            so we approach each project with maximal flexibility.
+            We believe it's crucial to strike the right balance between quality and speed of delivery.
           </p>
           <p>
             All we need is a prioritised backlog. If you don't have one yet, don't worry,
-            we will help you!
+            we can help with that too.
           </p>
           <span class="link show-contact-form">Get Started</span>
         </div>
@@ -26,8 +25,8 @@
             Need help with your engineering processes?
           </p>
           <p>
-            If your answer to any of these questions is YES, don't hesitate and reach out!
-            We can join your team and help boost your productivity.
+            If your answer to any of these questions is YES, don't hesitate to reach out!
+            We are here to help boost your productivity.
           </p>
           <span class="link show-contact-form">Get Started</span>
         </div>
@@ -42,7 +41,7 @@
           </p>
           <p>
             Whether you need a V2 (rewrite), or an update of your codebase so that it can support new features,
-            we can help you. At the same time, we introduce good practices and use recognised workflows.
+            we can help you. And as always, we introduce good practices and use workflows suited to your project.
           </p>
           <span class="link show-contact-form">Get Started</span>
         </div>

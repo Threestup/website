@@ -5,8 +5,8 @@
       <div class="col-lg-4 items-list-item">
         <strong class="title">Cost transparency</strong>
         <p>
-          Our hourly rate is fixed and the total cost will
-          be based on what we estimated and agreed on together
+          We pride ourselves on being as transparent as possible with our rates. The total cost will
+          be based on what we estimate and agree on together
           in the planning stage.
         </p>
         <p>
@@ -17,7 +17,7 @@
       <div class="col-lg-4 items-list-item">
         <strong class="title">Open workflow</strong>
         <p>
-          We use agile methodologies and we make sure you are part of the entire process.
+          We use agile methodologies and we make sure you are as involved as you would like to be throughout the entire process.
         </p>
         <p>
           From backlog grooming to sprint planning, you are always up-to-date and
@@ -27,10 +27,12 @@
       <div class="col-lg-4 items-list-item">
         <strong class="title">Focus on quality</strong>
         <p>
-          Quality, minimalism, maintainability, and cleanliness are at the forefront of what we do as a team.
+          Quality, efficiency, and scalability are at the forefront of what we offer.
         </p>
+        <p>We will build the right team of talented engineers for your project and take care of processes and workflows.</p>
         <p>
-          We believe it is essential to be professional and disciplined when developing software, regardless of the scale or the scope of the project.
+        With a strong understanding of common technical mistakes made by other companies we can ensure you don’t face the same. 
+        We’ll guide you along the best path for your product.
         </p>
       </div>
     </div>

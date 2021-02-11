@@ -17,8 +17,6 @@ require_once "./common/head.php";
 
   <?php require_once "./common/lets-start.php" ?>
 
-  <?php require_once "./common/how-we-work.php" ?>
-
   <?php require_once "./common/get-in-touch.php" ?>
 
   <?php require_once "./common/we-are.php" ?>
