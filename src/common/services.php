@@ -1,7 +1,7 @@
 <section class="services" id="services">
   <div class="container">
     <div class="boxes row justify-content-around">
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <div class="box" id="services-mvp">
           <strong class="title">Build<br> your MVP</strong>
           <p>
@@ -15,7 +15,7 @@
           <span class="link show-contact-form">Get Started</span>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <div class="box" id="services-scale">
           <strong class="title">Scale up<br> your team</strong>
           <p>
@@ -31,7 +31,7 @@
           <span class="link show-contact-form">Get Started</span>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <div class="box" id="services-legacy">
           <strong class="title">Legacy<br> code</strong>
           <p>
@@ -46,8 +46,8 @@
           <span class="link show-contact-form">Get Started</span>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="box" id="services-legacy">
+      <div class="col-lg-6">
+        <div class="box" id="services-codebase">
           <strong class="title">Inspect<br> your codebase</strong>
           <p>
             Inspection of the codebase ensures the quality is kept up to scratch and free from any critical issues. We can help identify problem areas

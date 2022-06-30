@@ -1,86 +1,99 @@
 @keyframes boxcolors {
-    0% {
-        background: $color-green;
-    }
-    25% {
-        background: $color-blue;
-    }
-    50% {
-        background: $color-threestup-black;
-    }
-    75% {
-        background: $color-yellow;
-    }
-    100% {
-        background: $color-purple-dark;
-    }
+  0% {
+    background: $color-green;
+  }
+  25% {
+    background: $color-blue;
+  }
+  50% {
+    background: $color-threestup-black;
+  }
+  75% {
+    background: $color-yellow;
+  }
+  100% {
+    background: $color-purple-dark;
+  }
 }
 
 section.services {
-    margin-top: -12vh;
+  margin-top: -12vh;
 
-    .boxes {
-        @include media-breakpoint-down(md) {
-            div:first-child .box {
-                border-radius: 40px 40px 0px 0px;
-            }
-            div:not(:first-child):not(:last-child) .box {
-                border-radius: 0px;
-            }
-            div:last-child .box {
-                border-radius: 0px 0px 40px 40px;
-            }
-        }
-        .box {
-            box-shadow: 0 0 20px transparentize($color: $color-black, $amount: 0.9);
-            border-radius: 40px;
-            margin: 0;
-            padding: $double-unit + $quarter-unit;
-            height: 100%;
-            background: $color-blue-dark;
-            color: $color-white;
-            font-family: $font-family-monospaced;
-            line-height: 1.5;
-
-            &#services-scale {
-                background: $color-yellow;
-            }
-
-            &#services-legacy {
-                background: $color-threestup-black;
-            }
-
-            .title, p, a {
-                color: inherit;
-            }
-
-            strong.title {
-                font-size: $double-unit;
-                font-family: $font-family-monospaced;
-                text-transform: uppercase;
-                line-height: 1.1;
-                display: block;
-            }
-
-            p {
-                margin: $double-half-unit 0;
-            }
-
-            &#services-scale {
-                animation-duration: 50s;
-                animation-direction: reverse;
-                animation-fill-mode: backwards;
-            }
-
-            &#services-legacy {
-                animation-duration: 30s;
-                animation-delay: 7s;
-                animation-fill-mode: forwards;
-            }
-        }
+  .boxes {
+    div {
+      margin-bottom: 50px;
     }
-
     @include media-breakpoint-down(md) {
-        margin-top: -50px;
+      div {
+        margin-bottom: 30px;
+      }
+
+      div:first-child .box {
+        border-radius: 40px 40px 0px 0px;
+      }
+      div:not(:first-child):not(:last-child) .box {
+        border-radius: 0px;
+      }
+      div:last-child .box {
+        border-radius: 0px 0px 40px 40px;
+      }
     }
+    .box {
+      box-shadow: 0 0 20px transparentize($color: $color-black, $amount: 0.9);
+      border-radius: 40px;
+      margin: 0;
+      padding: $double-unit + $quarter-unit;
+      height: 100%;
+      background: $color-blue-dark;
+      color: $color-white;
+      font-family: $font-family-monospaced;
+      line-height: 1.5;
+
+      &#services-scale {
+        background: $color-yellow;
+      }
+
+      &#services-legacy {
+        background: $color-threestup-black;
+      }
+
+      &#services-codebase {
+        background: $color-purple-dark;
+      }
+
+      .title,
+      p,
+      a {
+        color: inherit;
+      }
+
+      strong.title {
+        font-size: $double-unit;
+        font-family: $font-family-monospaced;
+        text-transform: uppercase;
+        line-height: 1.1;
+        display: block;
+      }
+
+      p {
+        margin: $double-half-unit 0;
+      }
+
+      &#services-scale {
+        animation-duration: 50s;
+        animation-direction: reverse;
+        animation-fill-mode: backwards;
+      }
+
+      &#services-legacy {
+        animation-duration: 30s;
+        animation-delay: 7s;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    margin-top: -50px;
+  }
 }
