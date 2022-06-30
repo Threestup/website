@@ -46,6 +46,16 @@
           <span class="link show-contact-form">Get Started</span>
         </div>
       </div>
+      <div class="col-lg-4">
+        <div class="box" id="services-legacy">
+          <strong class="title">Inspect<br> your codebase</strong>
+          <p>
+            Inspection of the codebase ensures the quality is kept up to scratch and free from any critical issues. We can help identify problem areas
+            in your project in a concise report with our recommendations on how best to resolve them.
+          </p>
+          <span class="link show-contact-form">Get Started</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
