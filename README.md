@@ -24,6 +24,7 @@ make deps
 ### Run the server
 
 Install the PHP dependencies then build the css file, and start a php server.
+
 ```sh
 make start
 ```
@@ -31,6 +32,7 @@ make start
 ### Production
 
 Build the production css file
+
 ```sh
 make compile-sass
 ```
@@ -42,3 +44,25 @@ A `Dockerfile` and `docker-compose.yml` are available
 `docker-compose up`and fire away
 
 _That's it, have fun!_
+
+### Deploy
+
+Run
+
+```sh
+docker build --platform linux/amd64 -t threestup/website:latest .
+```
+
+Make sure you are logged into docker hub with a user that has access to threestup.
+
+```sh
+docker push threestup/website:latest
+```
+
+After it updated on docker hub, go to the server (VPS currently):
+
+```sh
+cd vps/threestup
+sudo docker pull threestup/website
+sudo docker-compose up -d
+```
