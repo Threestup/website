@@ -1,6 +1,7 @@
 FROM php:7-fpm
 
 COPY . /usr/threestup/
+RUN mv /usr/threestup/public/* /usr/threestup/src && rm -rf /usr/threestup/public
 
 WORKDIR /usr/threestup
 
